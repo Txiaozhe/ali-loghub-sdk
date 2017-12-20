@@ -1,0 +1,16 @@
+{
+  "name": "ali-loghub-sdk",
+  "version": "1.0.0",
+  "description": "A sdk for aliyun loghub service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aliyun",
+    "loghub",
+    "sdk"
+  ],
+  "author": "Txiaozhe",
+  "license": "MIT"
+}
