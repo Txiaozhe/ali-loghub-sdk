@@ -1,5 +1,11 @@
 # ali-loghub-sdk
 
+[![NPM version][npm-image]][npm-url]
+[![npm download][download-image]][download-url]
+
+[npm-url]: https://www.npmjs.com/package/ali-loghub-sdk
+[download-url]: https://npmjs.org/package/ali-loghub-sdk
+
 ## aliyun 日志服务sdk库
 
 ## 开始使用
