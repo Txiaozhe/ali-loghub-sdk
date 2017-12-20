@@ -1,6 +1,6 @@
 {
   "name": "ali-loghub-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A sdk for aliyun loghub service.",
   "main": "index.js",
   "scripts": {
