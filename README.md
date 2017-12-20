@@ -1,8 +1,5 @@
 # ali-loghub-sdk
 
-[![NPM version][npm-image]][npm-url]
-[![npm download][download-image]][download-url]
-
 [npm-url]: https://www.npmjs.com/package/ali-loghub-sdk
 [download-url]: https://www.npmjs.com/package/ali-loghub-sdk
 
