@@ -1,7 +1,8 @@
 # ali-loghub-sdk
 
-[npm-url]: https://www.npmjs.com/package/ali-loghub-sdk
-[download-url]: https://www.npmjs.com/package/ali-loghub-sdk
+[GitHub](https://github.com/Txiaozhe/ali-loghub-sdk)
+
+因日常工作原因，目前只支持部分功能，剩余功能之后会逐渐开放，有什么特殊需求的欢迎在[Issues](https://github.com/Txiaozhe/ali-loghub-sdk/issues)中提出！
 
 ## aliyun 日志服务sdk库
 
@@ -60,13 +61,13 @@ loghub.getLogs({
 
 > 查询参数列表
 
-| 名称            | 类型     | 是否必选 | 描述                                       |
-| ------------- | ------ | ---- | ---------------------------------------- |
+| 名称           | 类型     | 是否必选 | 描述                                       |
+| ------------ | ------ | ---- | ---------------------------------------- |
 | logstorename | string | 是    | 查询的logstore名称                            |
 | topic        | string | 否    | 查询日志主题                                   |
 | from         | int    | 是    | 查询开始时间点（精度为秒，从 1970-1-1 00:00:00 UTC 计算起的秒数） |
 | to           | int    | 是    | 查询结束时间点（精度为秒，从 1970-1-1 00:00:00 UTC 计算起的秒数） |
-| query        | string | 否    | 查询表达式[查询表达式](https://help.aliyun.com/document_detail/29060.html?spm=5176.doc29029.2.3.1I4eIH)                   |
+| query        | string | 否    | 查询表达式[查询表达式](https://help.aliyun.com/document_detail/29060.html?spm=5176.doc29029.2.3.1I4eIH) |
 | line         | int    | 否    | 请求返回的最大日志条数。取值范围为 0~100，默认值为 100         |
 | offset       | int    | 否    | 请求返回日志的起始点。取值范围为 0 或正整数，默认值为 0           |
 | reverse      | bool   | 否    | 是否按日志时间戳逆序返回日志。true 表示逆序，false 表示顺序，默认值为 false |
