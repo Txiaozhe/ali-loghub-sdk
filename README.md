@@ -43,6 +43,65 @@ loghub.getLogStores((err, info) => {
  });
 ```
 
+* 消费日志
+
+```javascript
+/**
+ * logStoreName: logstore 名称
+ * shard: 从listShards接口获取的值，指定shard
+ * count: 返回的 loggroup 数目，范围为 0~1000
+ * cursor: 游标，用以表示从什么位置开始读取数据，相当于起点
+ */
+loghub.pullLogs({
+  logStoreName: 'logStoreName',
+  shard: '107',
+  count: '100',
+  cursor: 'cursor'
+}, (err, info) => {
+  if(err) {
+    console.log('err: ', err);
+  } else {
+    console.log('info: ', info);
+  }
+});
+```
+
+* 获取游标 cursor
+
+```javascript
+/**
+ * logStoreName: logstore 名称
+ * shard: 从listShards接口获取的值，指定shard
+ * from: 时间戳，秒，查询的时间点
+ */
+loghub.getCursor({
+  logStoreName: 'logstorename',
+  shard: '114',
+  from: '1513952882'
+}, (err, info) => {
+  if(err) {
+    console.log('err: ', err);
+  } else {
+    console.log('info: ', info);
+  }
+});
+```
+
+* 获取logstore下所有可用的shard
+
+```javascript
+/**
+ * logstorename: logstore 名称
+ */
+loghub.listShards(logstorename, (err, info) => {
+  if(err) {
+    console.log('err: ', err);
+  } else {
+    console.log('info: ', info);
+  }
+});
+```
+
 * 按需查找日志
 
 ```javascript
