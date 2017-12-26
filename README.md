@@ -1,6 +1,6 @@
 # ali-loghub-sdk
 
-[GitHub](https://github.com/Txiaozhe/ali-loghub-sdk)
+[![npm package](https://nodei.co/npm/ali-loghub-sdk.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ali-loghub-sdk/)
 
 因日常工作原因，目前只支持部分功能，剩余功能之后会逐渐开放，有什么特殊需求的欢迎在[Issues](https://github.com/Txiaozhe/ali-loghub-sdk/issues)中提出！
 
