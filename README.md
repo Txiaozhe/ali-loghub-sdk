@@ -47,13 +47,12 @@ loghub.getLogStores((err, info) => {
 
 ```javascript
 /**
- * './log.proto': proto文件路径
  * logStoreName: logstore 名称
  * shard: 从listShards接口获取的值，指定shard
  * count: 返回的 loggroup 数目，范围为 0~1000
  * cursor: 游标，用以表示从什么位置开始读取数据，相当于起点
  */
-loghub.pullLogs('./log.proto', {
+loghub.pullLogs({
   logStoreName: 'logStoreName',
   shard: '107',
   count: '100',
